@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/media/icons/pestaña.png" type="image/x-icon">
+    <!-- esta parte de bootstrap no va en el proyecto -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ______________________________________________ -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Catalina S.A</title>
+</head>
+<body>
+    <header>
+        <img class="mini-logo" src="./assets/media/imgs/logo-prin.png" alt="">
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <nav>
+            <ul class="links-menu">
+                <li><a href="#inicio" onclick="toggleMenu();">Inicio</a></li>
+                <li><a href="#nosotros" onclick="toggleMenu();">Nosotros</a></li>
+                <li><a href="#servicios" onclick="toggleMenu();">Servicios</a></li>
+                <li><a href="#seguimiento" onclick="toggleMenu();">Seguimiento</a></li>
+                <li><a href="#contacto" onclick="toggleMenu();">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <article class="contenedor-logoG">
+            <img class="logoG" src="./assets/media/imgs/logo-prin.png" alt="">
+        </article>
+    </section>
+
+
+    <!-- SECCION NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+            <article class="article-nosotros">
+                <h2 class="titulo-section">Nosotros</h2>
+                <p>Somos una empresa familiar abocada a nuestros clientes para satisfacer sus necesidades, volcando toda nuestra experiencia y seriedad. 
+                </p><br>
+                <p>Nuestra empresa nace en el año 1997, con la compra del primer camión, impulsados por fuertes sentimientos y profundas convicciones de lo que queríamos hacer y a dónde queríamos llegar.
+                </p><br>
+                <p>En la actualidad nos hemos convirtido en una empresa referente en el Valle de Uco en servicios de transporte. Ofrecemos servicios de transporte de carga nacional e internacional, prestando servicios a empresa de la zona como a nivel nacional.
+                </p>
+            </article>
+            <article class="article-nosotros">
+                <div class="img-nosotros">
+                    <img  src="./assets/media/imgs/nosotros.jpg" alt="">
+                </div>
+            </article>
+    </section>
+
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+
+        <article class="titulo">
+            <h2 class="titulo-section">Servicios</h2>
+            <p>Proporcionamos servicios integrales que abarcan desde la gestión de rutas hasta la entrega puntual.</p>
+        </article>
+
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="cards-wrapper">
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/camamarillo.jpg" class="card-img-top" alt="...">
+                    </div>
+      
+                    <div class="card-body">
+                      <h5 class="card-title">Cargas Generales</h5>
+                      <p class="card-text">Todo tipo de bultos, objetos, mercaderias, etc. <br>Sin límites de dimensión. <br>Posibilidad de entregas a domicilio.</p>
+                    </div>
+                  </div>
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/refrigerada.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Carga Refrigerada</h5>
+                      <p class="card-text">Productos que necesitan una temperatura fría para su conservación.</p>
+                      </div>
+                  </div>
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/camblanco.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Carga líquida</h5>
+                      <p class="card-text">Garantiza la seguridad y la integridad de líquidos alimentarios, agua potable, productos farmacéuticos y otros líquidos.</p>
+                    </div>
+                  </div>
+      
+                </div>
+              </div>
+      
+              <div class="carousel-item">
+                <div class="cards-wrapper">
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/trasnpanimales.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Transporte de Animales</h5>
+                      <p class="card-text">Garantizando condiciones adecuadas de temperatura, ventilación y espacio durante el trayecto. </p>
+                    </div>
+                  </div>
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/cargasPeligrosas.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Cargas peligrosas</h5>
+                      <p class="card-text">Prestación del servicio de transporte de hidrocarburos y cargas peligrosas en el territorio de la República
+                        Argentina.</p>
+                    </div>
+                  </div>
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/deposito.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Deposito temporal</h5>
+                      <p class="card-text">Si aún no necesitas retirar tu mercadería, nosotros nos encargamos de su almacenamiento.</p>
+                    </div>
+                  </div>
+      
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards-wrapper">
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/autoelevador.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Autoelevador</h5>
+                      <p class="card-text">Contamos con una flota de equipos eficientes y capacitados para la carga y descarga de mercancías con rapidez y precisión.</p>
+                    </div>
+                  </div>
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/camaraRefri.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Cámaras refrígeras</h5>
+                      <p class="card-text">Protección de productos sensibles en cámaras frigoríficas</p>
+                    </div>
+                  </div>
+      
+                  <div class="card">
+                    <div class="image-wrapper">
+                      <img src="./assets/media/imgs/contraReemb.webp" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Contrareembolso</h5>
+                      <p class="card-text">Este servicio resuelve los problemas de cobranza. Vos hacés el envío y el pago se gestiona a la hora de recibir la encomienda.</p>
+                    </div>
+                  </div>
+      
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      
+
+
+    </section>
+
+    <!-- INFORMACION DE SEGUIMIENTO -->
+    <section class="seguimiento" id="seguimiento">
+        <h2 class="titulo-section">Información de Seguimiento</h2>
+        <p>Puede consultar el estado del envío ingresando la siguiente información: DNI + Correo + Código de Seguimiento (en 3 pasos)</p>
+         <div class="contenedor-botonSeguimiento">
+            <button class="boton-seguimiento" id="show-process" onclick="showProcess()">Consultar</button>
+         </div>   
+        
+        <div id="process-container" class="container">
+          <form id="form-process" class="form-process">
+            <div class="step" id="step1">
+              <h4>Paso 1</h4>
+              <label>DNI:</label>
+              <input type="text" id="dni" required>
+              <button type="button" onclick="cancelar(1)">Cancelar</button>
+              <button type="button" onclick="nextStep(1)">Siguiente</button>
+            </div>
+            <div class="step" id="step2">
+              <h4>Paso 2</h4>
+              <label>Correo electrónico:</label>
+              <input type="text" id="correo" required>
+              <button type="button" onclick="prevStep(2)">Anterior</button>
+              <button type="button" onclick="cancelar(2)">Cancelar</button>
+              <button type="button" onclick="nextStep(2)">Siguiente</button>
+            </div>
+            <div class="step" id="step3">
+              <h4>Paso 3</h4>
+              <label>Código de Seguimiento:</label>
+              <input type="text" id="codigo-seguimiento" required>
+              <button type="button" onclick="prevStep(3)">Anterior</button>
+              <button type="button" onclick="cancelar(3)">Cancelar</button>
+              <button type="submit" onclick="send(event)">Enviar</button>
+            </div>
+            <div id="user-data">
+  
+            </div>
+          </form>
+  
+  
+        </div>
+
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        
+        <h2 class="titulo-section"><span>C</span>ontacto</h2>
+        <p>Póngase en contacto con nosotros si tiene alguna consulta que lo responderemos lo antes posible.</p>
+        
+        <form class="contact-form" id="contact-form">
+            <label class="label" for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Escriba su nombre" required />
+    
+            <label class="label" for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Escriba su e-mail" required />
+    
+            <label class="label" for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Escriba su mensaje" required></textarea>
+    
+            <button type="button" onclick="submitForm()">Enviar</button>
+
+            
+        </form>
+
+        <div class="modal" id="modal">
+            <div class="modal-content">
+              <span class="close-modal" onclick="closeModal()">&times;</span>
+              <h2>Resumen del formulario</h2>
+              <p id="modal-content"></p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>    
+        <p>
+            &copy; 2024 Catalina Transporte S.A.
+        </p>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy;Victor   &copy;Catalina   &copy;Santiago   &copy;Alejandro</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <!-- esta parte de bootstrap no va en el proyecto -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- ____________________________________________ -->
+    
+</body>
+</html>
